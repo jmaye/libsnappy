@@ -1,0 +1,11 @@
+libsnappy (1.1-2) lucid; urgency=low
+
+  * Debian deployement version
+
+ -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Wed, 22 May 2013 12:20:27 +0200
+
+libsnappy (1.1-1) lucid; urgency=low
+
+  * Initial release
+
+ -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Thu, 16 May 2013 10:09:12 +0000
