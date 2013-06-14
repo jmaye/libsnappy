@@ -32,7 +32,7 @@ remake_pack_deb(
 remake_pack_deb(
   COMPONENT python
   DESCRIPTION "Python bindings."
-  DEPENDS libsnappy libboost-python[0-9.]* libpython2.[6-7]
+  DEPENDS libsnappy libboost-python[0-9.]* libpython2.[6-7] python-numpy
 )
 
 remake_distribute_deb(
