@@ -1,3 +1,9 @@
+libsnappy (1.1-5) lucid; urgency=low
+
+  * missing some files 
+
+ -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Fri, 14 Jun 2013 10:25:40 +0200
+
 libsnappy (1.1-4) lucid; urgency=low
 
   * corrected dependency on numpy
