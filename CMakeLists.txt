@@ -15,8 +15,9 @@ remake_project(
   INSTALL /usr/
 )
 
-remake_python()
-remake_add_directories(python)
+remake_add_directories(
+  python
+)
 
 remake_pack_deb(
   DESCRIPTION "Main library."
@@ -31,14 +32,14 @@ remake_pack_deb(
 remake_pack_deb(
   COMPONENT python
   DESCRIPTION "Python bindings."
-  DEPENDS libsnappy libboost-python[0-9.]* python
+  DEPENDS libsnappy libboost-python[0-9.]* libpython2.[6-7]
 )
 
 remake_distribute_deb(
   DISTRIBUTION lucid
   SECTION libs
   UPLOAD ppa:jmaye/ethz
-  DEPENDS remake doxygen pkg-config python-dev libboost-python-dev
+  DEPENDS remake doxygen pkg-config libboost-python-dev python-dev python-numpy
   PASS CMAKE_BUILD_TYPE LIBSNAPPY_GIT_REVISION
 )
 
@@ -46,6 +47,6 @@ remake_distribute_deb(
   DISTRIBUTION precise
   SECTION libs
   UPLOAD ppa:jmaye/ethz
-  DEPENDS remake doxygen pkg-config python-dev libboost-python-dev
+  DEPENDS remake doxygen pkg-config libboost-python-dev python-dev python-numpy
   PASS CMAKE_BUILD_TYPE LIBSNAPPY_GIT_REVISION
 )
