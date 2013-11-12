@@ -4,7 +4,7 @@ include(ReMake)
 
 remake_project(
   libsnappy
-  VERSION 1.1
+  VERSION 1.1.1
   RELEASE beta
   SUMMARY "A fast compressor/decompressor library."
   AUTHOR "Jerome Maye"
