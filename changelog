@@ -1,3 +1,9 @@
+libsnappy (1.1.1-8) precise; urgency=low
+
+  * porting to trusty
+
+ -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Tue, 29 Jul 2014 13:42:04 +0200
+
 libsnappy (1.1.1-7) lucid; urgency=low
 
   * upstream version 1.1.1
